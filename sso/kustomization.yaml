@@ -1,0 +1,6 @@
+namespace: sso
+
+resources:
+- sso-namespace.yaml
+- sso-operator-group.yaml
+- rhsso-operator-subscription.yaml
