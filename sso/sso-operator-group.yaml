@@ -3,7 +3,7 @@ kind: OperatorGroup
 metadata:
   name: sso-operator-group
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   targetNamespaces:
   - sso

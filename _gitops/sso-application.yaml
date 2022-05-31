@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: sso-application
+  name: rhsso-operator-subscription-application
   namespace: openshift-gitops
 spec:
   project: cluster
