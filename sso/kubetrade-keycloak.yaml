@@ -1,0 +1,12 @@
+apiVersion: keycloak.org/v1alpha1
+kind: Keycloak
+metadata:
+  name: kubetrade-keycloak
+  labels:
+    app: kubetrade-keycloak
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+spec:
+  externalAccess:
+    enabled: true
+  instances: 1

@@ -1,0 +1,15 @@
+kind: KeycloakRealm
+apiVersion: keycloak.org/v1alpha1
+metadata:
+  name: kubetrade-keycloakrealm
+  annotations:
+    argocd.argoproj.io/sync-wave: "4"
+spec:
+  realm:
+    id: kubetrade
+    realm: kubetrade
+    enabled: true
+    displayName: Kubetrade Realm
+  instanceSelector:
+    matchLabels:
+      app: kubetrade-keycloak
