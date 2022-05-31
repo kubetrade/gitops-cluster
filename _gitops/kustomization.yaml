@@ -1,4 +1,5 @@
 namespace: openshift-gitops
 
 resources:
+- openshift-operators-application.yaml
 - sso-application.yaml

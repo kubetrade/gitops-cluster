@@ -1,0 +1,4 @@
+namespace: openshift-operators
+
+resources:
+- openshift-pipelines-operator-rh-subscription.yaml
