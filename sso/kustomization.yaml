@@ -4,3 +4,4 @@ resources:
 - sso-operator-group.yaml
 - rhsso-operator-subscription.yaml
 - keycloak-admin-role.yaml
+- kubetrade-keycloak.yaml
