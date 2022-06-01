@@ -3,3 +3,4 @@ namespace: sso
 resources:
 - sso-operator-group.yaml
 - rhsso-operator-subscription.yaml
+- kubetrade-keycloak.yaml
